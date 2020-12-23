@@ -1,0 +1,15 @@
+<%= form_for(@rad_guy do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+
+    <%= f.label :image, "Attach an Image" %>
+    <%= f.file_field :image %>
+
+    <%= f.label :demo %>
+    <%= f.check_box :demo, {}, true, false %>
+
+    <%= f.label :rental %>
+    <%= f.check_box :rental, {}, true, false %>
+
+    <%= f.submit class: 'btn btn-success btn-lg' %>
+<% end %>
