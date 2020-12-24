@@ -2,5 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 * {
   font-family: 'Bangers', cursive;
+  color: purple;
 }
 
+h1, h2, h3, p {
+  color: purple;
+}
+
+.header {
+  font-size: 68px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.background {
+  background-image: url(asset_path("1406844.png"));
+  background-size: cover;
+  min-height: 800px;
+  min-width: 1024px;
+}
